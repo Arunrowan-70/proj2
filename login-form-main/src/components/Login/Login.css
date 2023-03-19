@@ -1,0 +1,44 @@
+.img-box {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+.form-img {
+  max-width: 100%;
+}
+
+.regiter-btn:hover {
+  background: #0299ac !important;
+}
+
+.social-login button svg {
+  display: inline-block;
+  font-size: 36px;
+  text-align: center;
+  padding: 20px 40px;
+  color: #048195;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-login button svg:hover {
+  border-color: #048195;
+}
+
+@media screen and (max-width: 1180px) {
+  .social-login button svg {
+    font-size: 30px;
+    padding: 20px 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .social-login {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .social-login {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
